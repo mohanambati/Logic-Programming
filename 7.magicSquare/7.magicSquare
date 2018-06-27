@@ -1,0 +1,5 @@
+A magic square is an n×n square grid filled with distinct integers 
+in the range 1, . . . , n 2 so that the sum of numbers in each row, 
+each column, and each of the two diagonals equals the same “magic constant.”
+
+Write a program in Clingo that finds magic squares of size n. 

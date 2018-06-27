@@ -1,0 +1,38 @@
+Research papers submitted to a scientific conference are usually reviewed
+by the conference program committee (PC). Every submission is read and
+discussed by a group of PC members chosen by the chair of the committee,
+and this group decides if the paper can be accepted for presentation.
+It is important to assign each submission to the PC members who are
+best qualified to evaluate it. To help the chair make good decisions, each
+PC member submits initially a bid that classifies all submissions into several
+categories, for instance:
+* “yes”: I want to review this submission,
+* “maybe”: I don’t mind reviewing it;
+* “no”: please don’t assign it to me.
+
+For example, if 5 committee members need to review 4 submissions, their
+bids may look like this:
+
+            Submission 1 | Submission 2 | Submission 3 | Submission 4
+Alice       yes          | yes          | yes          | maybe    
+Barbara     no           | yes          | maybe        | maybe
+Carol       yes          | maybe        | maybe        | no
+Dianne      no           | no           | yes          | maybe
+Edith       yes          | maybe        | yes          | no
+
+The chair will try to use this information to assign each submission to 
+3 committee members in a reasonable way.
+
+Write a Clingo program that can assist a PC chair in making such
+decisions. Assume that n members of the program committee need to review
+m submissions so that each submission is evaluated by k reviewers. Each
+PC member expressed his preferences by submitting bids as explained above.
+Your program should assign the papers to reviewers so that
+(i) the workloads are approximately equal: the numbers of submissions
+assigned to any two PC members do not differ by more that 1;
+(ii) no PC member is assigned a submission that he placed in the “no”
+group;
+(iii) the total number of cases when a submission is assigned to a reviewer
+who placed it in the “yes” group is as large as possible.
+
+To test your program, run it on the example above.

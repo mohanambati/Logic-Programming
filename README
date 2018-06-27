@@ -1,0 +1,20 @@
+DIRECTORIES:
+* problemDescription 
+  contains files that document benchmarks which assume to be the ones our team will experiment at first by hand to build expertise on modeling and rewriting
+  Forexample 1.SumFree contains a text description of SumFree problem
+
+* 1.SumFree directory
+  contains two subfolders
+  - encodings
+      set of encodings that our team designed for a problem; they should be compatible 
+      with the instances we have; 
+      also ideally the encoding should be normalized. I.e., if the relations used in the encoding are the same in principle they should also share the same name.
+
+  - instances
+     set of instances that our team designed for a problem
+ 
+
+* eventually there will be other directories as 1.SumFree for the other problems
+
+* varios 
+contains so far unsorted but related data: a place for team members to store intermediate results that in some form one day will make it to either encodings or instances.

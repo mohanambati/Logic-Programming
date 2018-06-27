@@ -1,0 +1,17 @@
+Hidato is a logic puzzle, known also as Number Snake. You are given a
+grid partially filled with numbers, for instance:
+  6 e e
+  e 2 8
+  1 e e
+where e stands for empty cell.
+
+The goal is to fill the grid so that consecutive numbers connect horizontally,
+vertically, or diagonally.
+
+Write a Clingo program for solving Hidato puzzles in which the grid is
+a square of size n and the numbers go from 1 to n^2.
+
+
+A Hidato puzzle is supposed to have a unique solution. Use your 
+program to check whether this condition is satisfied for the puzzles posted at
+http://www.mathinenglish.com/Hidato/6by6.pdf.

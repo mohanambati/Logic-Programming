@@ -1,0 +1,25 @@
+#const review_committee_count = 3.
+#const program_committee = 5.
+#const total_submissions = 4.
+
+% Bid information.
+bids(1,1,yes).
+bids(1,2,yes).
+bids(1,3,yes).
+bids(1,4,maybe).
+bids(2,1,no).
+bids(2,2,yes).
+bids(2,3,maybe).
+bids(2,4,maybe).
+bids(3,1,yes).
+bids(3,2,maybe).
+bids(3,3,maybe).
+bids(3,4,no).
+bids(4,1,no).
+bids(4,2,no).
+bids(4,3,yes).
+bids(4,4,maybe).
+bids(5,1,yes).
+bids(5,2,maybe).
+bids(5,3,yes).
+bids(5,4,no).

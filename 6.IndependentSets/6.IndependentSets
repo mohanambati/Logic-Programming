@@ -1,0 +1,14 @@
+A set S of vertices in a graph is independent if no two vertices from S are
+adjacent. For instance, {B, D, E, G} is an independent set in the graph 
+
+A ----- B
+|\    / |
+| E--F  |
+| | /|  |
+| |/ |  |
+| H--G  |
+|/    \ |
+D-------C
+
+Write a program in CLingo that finds independent sets of vertices of a
+given size n.

@@ -1,0 +1,13 @@
+A set S of integers is called sum-free if there are no numbers x, y in S such that x + y is in S. For instance, {1, 3, 5} is sum-free, and {2, 3, 5} and {2, 4} are not.
+
+Use Clingo to find a partition of the set described useing *member* predicate
+into n sum-free subsets.
+
+E.g. set of facts:
+
+member(1).
+member(3).
+member(5).
+
+captures set {1, 3, 5}.
+

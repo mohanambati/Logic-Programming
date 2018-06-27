@@ -1,0 +1,20 @@
+We are making arrangements for a big sit-down party. There will be n tables
+in the room, with m chairs around each table. The guests are numbered from 1
+to mn, and we’d like to choose a table for each of them so that two conditions are
+satisfied. 
+
+First, some guests like each other and want to sit together; accordingly,
+we are given a set A of two-element subsets of {1, . . . , mn}, and, for every {i, j}
+in A, guests i and j should sit at the same table. 
+
+Second, some guests dislike each other and want to sit at different tables; 
+accordingly, we are given a set B of two-element subsets of {1, . . . , mn}, and, 
+for every {i, j} in B, guests i and j should sit at different tables.
+
+Sample input may look as follows:
+
+# const n =3.
+# const m =4.
+
+like (1 ,2; 2 ,3; 4 ,5; 5 ,6; 7 ,8; 8 ,9).
+dislike (1 ,10; 1 ,11; 4 ,11; 4 ,12).
